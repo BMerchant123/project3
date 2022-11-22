@@ -1,0 +1,163 @@
+body{
+  font-family: Trebuchet MS, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+
+h3{
+  position: relative;
+  left: 1%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li{
+  font-size: 18px;
+  position: relative;
+  left: 1%;
+}
+
+ul li li{
+  font-size: 16px;
+  position: relative;
+  left: 1.5%;
+}
+
+ul li li li{
+  font-size: 15px;
+  position: relative;
+  left: 2%;
+}
+
+p{
+  position: relative;
+  left: 1%;
+}
+
+#main-navbar{
+  background-color: #0C74F3;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+	
+#navbar-container{
+  position: relative;
+}
+	
+#navbar-container ul{
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+	
+#navbar-container ul li{
+  display: block;
+  float: left;
+  left: 50%;
+  right: 50%;
+  position: relative;
+  left: -1%;
+}
+	
+#navbar-container ul li a{
+  color: #f38b0c;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.resume{
+  background-image: url("../media/shapes1.png");
+  background-color: #fff;
+}
+
+.resume h3{
+  color: #DD1717;
+  font-size: 20px;
+  position: relative;
+  left: 1%;
+}
+
+.resume h1{
+  color: #50C878;
+  font-size: 30px;
+}
+
+.resume p{
+  color: #ffb433;
+  font-size: 18px;
+  position: relative;
+  left: 1%;
+}
+
+.resume ul li{
+  color: #000;
+  position: relative;
+  left: 1%;
+}
+
+.resume ul li li{
+  color: #33DBFF;
+  position: relative;
+  left: 1.5%;
+}
+
+.pokemon{
+  background-image: url("../media/pokeball.png");
+}
+
+.pokemon h1{
+  color: #d3d3d3;
+  font-size: 30px;
+}
+	
+.pokemon p{
+  color: #d3d3d3;
+  font-size: 18px;
+}
+	
+.pokemon ul li li{
+  color: #f0f0f0;
+}
+
+.pokemon ul li li li{
+  color: #222224;
+}
+
+.chess{
+  background-image: url("../media/pawn.png");
+}
+
+.chess p{
+  color: #eeeed2;
+  font-size: 18px;
+}
+
+.chess h1{
+  color: #769656;
+  font-size: 30px;
+}
+
+.chess h3{
+  color: #769656;
+  font-size: 20px;
+}
+
+.chess ul li li{
+  color: #769656;
+}
+
+.chess ul li li li{
+  color: #eeeed2;
+}
