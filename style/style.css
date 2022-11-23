@@ -161,3 +161,7 @@ p{
 .chess ul li li li{
   color: #eeeed2;
 }
+
+.googlemap(
+  background-image: url("../media/food.png")
+}
