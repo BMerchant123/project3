@@ -153,6 +153,11 @@ ul li li li{
   background-image: url("../media/food.png");
 }
 
+.googlemap h1{
+  color: #769656;
+  font-size: 30px;
+}
+
 @media only screen and (min-width: 400px){
 
 	.chess nav{
