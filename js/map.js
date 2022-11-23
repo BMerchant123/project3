@@ -9,7 +9,7 @@ function initMap(): void {
 	
 	const map = new google.maps.Map(document.getElementById("map") as HTMLElement, centerMap);
 	
-	const DHCinfo = "<h3>Dave's hot chickent</h3>"
+	const DHCinfo = "<h3>Dave's hot chicken is a fast food restaurant chain that has several locations in the U.S. They are famous for their chicken tenders which is one of the very few items they sell on their menu along with their sliders and sides. Their sliders and tenders have a variety of spice levels that you can choose from from no spice to reaper.</h3>"
 	
 	const DHCMarker = new google.maps.Marker({
 		position: new google.maps.LatLng(41.948006, 87.688036),
@@ -33,7 +33,7 @@ function initMap(): void {
 		title: "Khan BBQ",
 	});
 	
-	const KBBQinfo = "<h3>test</h3>"
+	const KBBQinfo = "<h3>Khan BBQ is a restaurant located in Chicago. They sell a variety of Pakistani foods such as kebabs, biryani, and chicken tikka.</h3>"
 	
 	const KBBQWindow = new google.maps.InfoWindow({
 		content: KBBQinfo,
@@ -41,7 +41,7 @@ function initMap(): void {
 	});
 	
 	KBBQMarker.addListner("click", () => {
-      KKBQWIndow.open({
+      KKBQWindow.open({
         anchor: KBBQMarker,
         map,
 	  )};
@@ -52,6 +52,20 @@ function initMap(): void {
 		position: new google.maps.LatLng(41.998813, 87.690471),
 		label: "Spinzer",
 	});
+        
+        const Sinfo = "<h3>Spinzer is a fast food restaurant located in Chicago. They sell a variety of fast-food BBQ food such as burgers and hot dogs and Pakistani food.</h3>
+        
+	const SWindow = new google.maps.InfoWindow({
+		content: Sinfo,
+		map,
+		)};
+						   });
+	SMarker.addListner("click", () => {
+		SWindow.open({
+			anchor: SMarker,
+			map,
+		)};
+	)};
 
 }
 
