@@ -165,3 +165,41 @@ p{
 .googlemap(
   background-image: url("../media/food.png")
 }
+
+@media only screen and (min-width: 400px){
+	
+	.chess nav{
+		font-size: 20px;
+		font-weight: normal;
+		position: static;
+		list-style-type: none;
+		
+	}
+	
+	.chess h1{
+		font-weight: normal;
+	}
+	
+	.chess h3{ 
+		font-weight: normal;
+	}
+}
+
+@media only screen and (min-width: 600px){
+	
+	
+	.chess nav{
+		font-size: 25px;
+		font-weight: bold;
+		position: relative;
+		list-style-type: none;
+	}
+	
+	.chess h1{
+	font-weight: bold;
+	}
+	
+	.chess h3{ 
+		font-weight: bold;
+	}
+}
