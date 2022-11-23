@@ -3,7 +3,7 @@ let map;: google.maps.Map;
 
 function initMap(): void {
 	var centerMap = {
-      zoom: 4,
+      zoom: 15,
       center: {lat: 41.948006, lng: 87.688036},
     }
 	
