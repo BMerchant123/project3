@@ -163,7 +163,7 @@ p{
 }
 
 .googlemap(
-  background-image: url("../media/food.png")
+  background-image: url("../media/food.png");
 }
 
 @media only screen and (min-width: 400px){
